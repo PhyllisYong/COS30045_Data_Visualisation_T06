@@ -26,5 +26,13 @@ const filters_screen = [
 ];
 
 // T06-2 Step 1.4 Set up shared constant
+let innerChartS;
+
+const tooltipWidth = 65;
+const tooltipHeight = 32;
+
+const xScaleS = d3.scaleLinear();
+const yScaleS = d3.scaleLinear();
+const colorScale = d3.scaleOrdinal();
 
 // T06-2 Step 3.3 Add tooltipWidth and tooltipHeight
